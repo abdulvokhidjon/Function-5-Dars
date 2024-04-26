@@ -117,3 +117,57 @@
 // }
 
 // firstElement();
+
+// N{8}
+
+// function multiply() {
+//   let firstNumberInput = prompt("Birinchi sonni kiriting:");
+//   let secondNumberInput = prompt("Ikkinchi sonni kiriting:");
+
+//   let firstNumber = Number(firstNumberInput);
+//   let secondNumber = Number(secondNumberInput);
+
+//   if (!isNaN(firstNumber) && !isNaN(secondNumber)) {
+//     let product = firstNumber * secondNumber;
+//     console.log(firstNumber, " va ", secondNumber, " ko'paytmasi ", product);
+//   } else {
+//     console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, son kiriting.");
+//   }
+// }
+
+// multiply();
+
+// N{9}
+
+// function hourToSeconds() {
+//   let hoursInput = prompt("Soatni kiriting:");
+//   let hours = Number(hoursInput);
+
+//   if (!isNaN(hours)) {
+//     let seconds = hours * 60 * 60;
+//     console.log(hours, " soat ", seconds, " sekundga teng.");
+//   } else {
+//     console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, soatni son sifatida kiriting.");
+//   }
+// }
+
+// hourToSeconds();
+
+// N{10}
+
+// function thirdSide(side1, side2) {
+//   let side1Input = prompt("Birinchi tomon uzunligini kiriting:");
+//   let side2Input = prompt("Ikkinchi tomon uzunligini kiriting:");
+
+//   let side1Number = Number(side1Input);
+//   let side2Number = Number(side2Input);
+
+//   if (!isNaN(side1Number) && !isNaN(side2Number)) {
+//     let longestThirdSide = (side1Number + side2Number) - 1;
+//     console.log("Uchburchakning uchinchi tomonining maksimal uzunligi:", longestThirdSide);
+//   } else {
+//     console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, tomon uzunliklarini son sifatida kiriting.");
+//   }
+// }
+
+// thirdSide();
