@@ -65,33 +65,55 @@
 
 // N{5}
 
+// function ageToDays() {
+//   let ageInYearsInput = prompt("Marhamat qilib yoshingizni kiriting:");
+//   let ageInYears = Number(ageInYearsInput);
+
+//   if (!isNaN(ageInYears)) {
+//     let ageInDays = ageInYears * 365;
+//     console.log(
+//       "Sizga shuni ma'lum qilamanki,siz :",
+//       ageInYears,
+//       "yoshdasiz, aniqroq qilib aysam :",
+//       ageInDays,
+//       " kunga teng."
+//     );
+//   } else {
+//     console.log("Noto'g'ri ma'lumot kiritilgan. Iltimos, son kiriting.");
+//   }
+// }
+
+// ageToDays();
+
+// N{6}
+
+// function cube(x) {
+//   if (isNaN(x)) {
+//     return "Noto'g'ri ma'lumot kiritilgan. Iltimos, son kiriting.";
+//   } else {
+//     return x * x * x;
+//   }
+// }
+
+// let userInput = +prompt("Marhamat qilib son kiriting:");
+
+// let result = cube(userInput);
+
+// console.log(userInput , "ning kubi", result, "ga teng.");
 
 
+// N{7}
 
-function Kun() {
-    let yosh = +prompt("");
-   
-  
-    if (!isNaN(yosh)) {
-      let kun = yosh * 365;
-      console.log("" yosh, "yoshdasiz, aniqroq qilib aysam :" kun, "kundan beri yashab kelmoqdasiz.");
-    } else {
-      console.log("Noto'g'ri ma'lumot kiritilgan . Iltimos, son kiriting.");
-    }
-  }
-  
- Kun();
+// function firstElement() {
+//   let input = prompt("Array elementlarini vergul bilan ajratib kiriting (masalan, 1,2,3):");
+//   let arr = input.split(",").map(Number); 
 
- function ageToDays() {
-    let ageInYearsInput = prompt("Marhamat qilib yoshingizni kiriting:");
-    let ageInYears = Number(ageInYearsInput);
-  
-    if (!isNaN(ageInYears)) {
-      let ageInDays = ageInYears * 365;
-      console.log("Sizga shuni ma'lum qilamanki,siz :", ageInYears, ageInDays, " kunga teng.");
-    } else {
-      console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, son kiriting.");
-    }
-  }
-  
-  ageToDays();
+//   if (arr.length > 0) {
+//     let firstElement = arr[0];
+//     console.log("Birinchi element:", firstElement);
+//   } else {
+//     console.log("Array bo'sh.");
+//   }
+// }
+
+// firstElement();
