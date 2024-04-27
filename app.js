@@ -565,3 +565,48 @@
   
 //   rectangleFace();
 
+// N{44}
+
+// function nameFam() {
+//     let nameInput = prompt("Marhamat qilib Ismingizni kiriting:");
+//     let surnameInput = prompt("Marhamat qilib Familiyangizni kiriting:");
+  
+//     console.log(surnameInput + ", " + nameInput);
+//   }
+  
+//   nameFam();
+
+// N{45}
+
+// function bug() {
+//     let input = prompt("Bug mavjudmi? (true/false):");
+  
+//     let hasBug = input.toLowerCase() === "true"; 
+  
+//     if (hasBug) {
+//       console.log("sad days");
+//     } else {
+//       console.log("it's a good day");
+//     }
+//   }
+  
+//   bug();
+  
+// N{46}
+
+// function dropArray() {
+//     let inputArrayStr = prompt("Array elementlarini vergul bilan ajratib kiriting (masalan, 1,2,3):");
+//     let dropCountStr = prompt("Nechta elementni olib tashlash kerak:");
+  
+//     let inputArray = inputArrayStr.split(",").map(Number); 
+//     let dropCount = Number(dropCountStr);
+  
+//     if (!isNaN(dropCount) && dropCount >= 0) {
+//       let resultArray = inputArray.slice(dropCount);
+//       console.log(resultArray);
+//     } else {
+//       console.log("Noto'g'ri ma'lumot kiritilgan. Iltimos, musbat sonni kiriting.");
+//     }
+//   }
+  
+//   dropArray();
