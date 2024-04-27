@@ -389,19 +389,125 @@
 
 // N{32}
 
-function equal10() {
-    let num1Input = prompt("Marhamat qilib birinchi sonni kiriting:");
-    let num2Input = prompt("Marhamat qilib ikkinchi sonni kiriting:");
+// function equal10() {
+//     let num1Input = prompt("Marhamat qilib birinchi sonni kiriting:");
+//     let num2Input = prompt("Marhamat qilib ikkinchi sonni kiriting:");
   
-    let num1 = Number(num1Input);
-    let num2 = Number(num2Input);
+//     let num1 = Number(num1Input);
+//     let num2 = Number(num2Input);
   
-    if (!isNaN(num1) && !isNaN(num2)) {
-      let result = (num1 === 10 || num2 === 10 || num1 + num2 === 10);
-      console.log(result);
-    } else {
-      console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, sonlarni kiriting.");
-    }
-  }
+//     if (!isNaN(num1) && !isNaN(num2)) {
+//       let result = (num1 === 10 || num2 === 10 || num1 + num2 === 10);
+//       console.log(result);
+//     } else {
+//       console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, sonlarni kiriting.");
+//     }
+//   }
   
-  equal10();
+//   equal10();
+
+// N{33}
+
+// function literDistance() {
+//     const consumptionPerKm = 10; // 1 km uchun yoqilg'i sarfi
+//     const minFuelLevel = 100; // yo'lga chiqishdan oldingi minimal yoqilg'i darajasi
+  
+//     let distanceInput = prompt("Marhamat qilib masofani kiriting (km):");
+//     let distance = Number(distanceInput);
+  
+//     if (!isNaN(distance)) {
+//       let requiredFuel = distance * consumptionPerKm; 
+//       let totalFuel = Math.max(requiredFuel, minFuelLevel);
+//       console.log(distance, "km masofa uchun ", totalFuel, " litr benzin kerak.");
+//     } else {
+//       console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, masofani son sifatida kiriting.");
+//     }
+//   }
+  
+//   literDistance();
+
+// N{34}
+
+// function biggerOne(a, b) {
+//   return Math.max(a, b);
+// }
+// console.log(biggerOne(23, 56));
+// console.log(biggerOne(23, -56));
+// console.log(biggerOne(1, 1));
+
+// N{35}
+
+// function changeToArray(a, b) {
+//   return [a, b];
+// }
+// console.log(changeToArray(1, 2));
+// console.log(changeToArray(164556, 28));
+// console.log(changeToArray("Hello", "World"));
+
+// N{36}
+
+// function isEqual(a, b) {
+//   if (a.toString().length === b.toString().length) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+
+// isEqual("ab", "cd");
+// isEqual("ab", "cde");
+// isEqual(2, 3);
+// isEqual(2, 34);
+
+// N{37}
+
+// const emptyString = (a) => {
+//   if (a.toString().length == 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// };
+// emptyString("");
+// emptyString(" ");
+// emptyString("a");
+
+// N{38}
+
+// function isDevider(n) {
+//   if (n % 5 == 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isDevider(5);
+// isDevider(55);
+// isDevider(14);
+
+// N{39}
+
+// function isDevider(n) {
+//   if (n % 100 == 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isDevider(5);
+// isDevider(5500);
+// isDevider(200);
+
+// N{40}
+
+// function countCharacters(str) {
+//   if (str === "") {
+//     return 0;
+//   } else {
+//     return 1 + countCharacters(str.slice(1));
+//   }
+// }
+// console.log(countCharacters("Hello World"));
+// console.log(countCharacters("apple"));
+// console.log(countCharacters(""));
+  
