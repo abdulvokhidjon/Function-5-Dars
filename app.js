@@ -610,3 +610,35 @@
 //   }
   
 //   dropArray();
+
+// N{47}
+
+// function getVoteCount() {
+//     let upvotes = Number(prompt("Marhamat qilib Qo'llab-quvvatlash ovozlarini kiriting:"));
+//     let downvotes = Number(prompt("Marhamat qilib Qarshi ovozlarini kiriting:"));
+  
+//     if (!isNaN(upvotes) && !isNaN(downvotes)) { 
+//       let voteCount = upvotes - downvotes;
+//       console.log(voteCount);
+//     } else {
+//       console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, raqamlarni kiriting.");
+//     }
+//   }
+  
+//   getVoteCount();
+
+// N{48}
+
+// function negative() {
+//     let inputNumStr = prompt("Marhamat qilib raqam kiriting:");
+//     let inputNum = Number(inputNumStr);
+  
+//     if (!isNaN(inputNum)) {
+//       let negativeNum = -inputNum; 
+//       console.log(negativeNum);
+//     } else {
+//       console.log("G'ayrioddiy ma'lumot kiritilgan. Iltimos, to'g'ri raqamni kiriting.");
+//     }
+//   }
+  
+//   negative();
