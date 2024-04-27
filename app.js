@@ -2,14 +2,14 @@
 
 // N {1}
 
-// const a = +prompt("Marhamat qilib (a) qiymatni kiriting:");
-// const b = +prompt("Marhamat qilib (b) qiymatni kiriting:");
+const a = +prompt("Marhamat qilib (a) qiymatni kiriting:");
+const b = +prompt("Marhamat qilib (b) qiymatni kiriting:");
 
-// function sum(a, b) {
-//   return a + b;
-// }
-// let total = sum(a, b);
-// console.log("Yig'indi:", total,"ga teng.");
+function sum(a, b) {
+  return a + b;
+}
+let total = sum(a, b);
+console.log("Yig'indi:", total,"ga teng.");
 
 // N{2}
 
