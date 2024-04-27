@@ -642,3 +642,31 @@ console.log("Yig'indi:", total,"ga teng.");
 //   }
   
 //   negative();
+
+// N{49}
+
+// function swapArray() {
+//   let inputArrayStr = prompt("Marhamat qilib Array elementlarini vergul bilan ajratib kiriting (masalan, 1,2,3):");
+//   let inputArray = inputArrayStr.split(",").map(Number); 
+
+//   let reversedArray = inputArray.reverse(); 
+//   console.log(reversedArray);
+// }
+
+// swapArray();
+
+// N{50}
+
+// function canGoToCinema() {
+//   let ageStr = prompt(" Marhamat qilib Yoshingizni kiriting:");
+//   let age = Number(ageStr);
+//   let withParents = prompt("Ota-onangiz bilanmisiz? (ha/yo'q):").toLowerCase() === "ha"; 
+
+//   if (!isNaN(age) && (age >= 15 || withParents)) { 
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+
+// canGoToCinema();
