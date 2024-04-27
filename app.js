@@ -352,3 +352,56 @@
 // console.log(arrowFunction(3));
 // console.log(arrowFunction("3"));
 // console.log(arrowFunction(true));
+
+// N{30}
+
+// function frameNumber() {
+//     let minutesInput = prompt("Daqiqalar sonini kiriting:");
+//     let fpsInput = prompt("Soniyadagi kadrlar sonini kiriting (FPS):");
+  
+//     let minutes = Number(minutesInput);
+//     let fps = Number(fpsInput);
+  
+//     if (!isNaN(minutes) && !isNaN(fps)) {
+//       let totalFrames = minutes * 60 * fps; // daqiqalarni sekundlarga aylantiramiz va FPS ga ko'paytiramiz
+//       console.log(minutes, " daqiqada ", fps, " FPS bilan jami ", totalFrames, " ta kadr bor.");
+//     } else {
+//       console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, daqiqalar va FPS ni son sifatida kiriting.");
+//     }
+//   }
+  
+//   frameNumber();
+
+// N{31}
+
+// function calc() {
+//     let expressionInput = prompt("Marhamat qilib matematik ifodani kiriting: (masalan, 23+4):");
+  
+//     try {
+//       let result = eval(expressionInput);
+//       console.log(expressionInput, "=", result);
+//     } catch (error) {
+//       console.log("Noto'g'ri ifoda.");
+//     }
+//   }
+  
+//   calc();
+
+// N{32}
+
+function equal10() {
+    let num1Input = prompt("Marhamat qilib birinchi sonni kiriting:");
+    let num2Input = prompt("Marhamat qilib ikkinchi sonni kiriting:");
+  
+    let num1 = Number(num1Input);
+    let num2 = Number(num2Input);
+  
+    if (!isNaN(num1) && !isNaN(num2)) {
+      let result = (num1 === 10 || num2 === 10 || num1 + num2 === 10);
+      console.log(result);
+    } else {
+      console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, sonlarni kiriting.");
+    }
+  }
+  
+  equal10();
