@@ -511,3 +511,57 @@
 // console.log(countCharacters("apple"));
 // console.log(countCharacters(""));
   
+// N{41}
+
+// function divide() {
+//     let num1Input = prompt("Marhamat qilib birinchi sonni kiriting (kichikroq yoki teng):");
+//     let num2Input = prompt("Marhamat qilib ikkinchi sonni kiriting (kattaroq):");
+  
+//     let num1 = Number(num1Input);
+//     let num2 = Number(num2Input);
+  
+//     if (!isNaN(num1) && !isNaN(num2) && num1 <= num2) {
+//       let isDivisible = (num1 % num2 === 0); 
+//       console.log(isDivisible);
+//     } else {
+//       console.log("Noto'g'ri ma'lumot kiritilgan yoki birinchi son ikkinchi sondan katta.");
+//     }
+//   }
+  
+//   divide();
+
+// N{42}
+
+// function number() {
+//     let inputString = prompt("Marhamat qilib raqamni kiriting:");
+  
+//     let num = Number(inputString);
+  
+//     if (!isNaN(num)) {
+//       console.log("Raqam:", num);
+//     } else {
+//       console.log("Noto'g'ri kiritilgan ma'lumot. Iltimos, raqamni kiriting.");
+//     }
+//   }
+  
+//   number();
+
+// N{43}
+
+// function rectangleFace() {
+//     let side2Input = prompt("Marhamat qilib to'g'ri to'rtburchakning ikkinchi tomonini kiriting:");
+//     let side1Input = prompt("Marhamat qilib to'g'ri to'rtburchakning birinchi tomonini kiriting:");
+  
+//     let side1 = Number(side1Input);
+//     let side2 = Number(side2Input);
+  
+//     if (!isNaN(side1) && !isNaN(side2) && side1 > 0 && side2 > 0) {
+//       let area = side1 * side2;
+//       console.log("To'g'ri to'rtburchakning yuzasi:", area);
+//     } else {
+//       console.log(-1); // Noto'g'ri ma'lumot kiritilgan
+//     }
+//   }
+  
+//   rectangleFace();
+
